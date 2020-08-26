@@ -6,9 +6,9 @@ console.log(txt);
 //console.log(person.name)
 
 //CommonJs
-const Dog = require('./playground/person');
+const Dog = require('./playground/person'); 
 let Dog1 = new Dog("Fluffy", 20);
-Dog1.bark('lol');
+Dog1.bark('lol'); 
 
 //Es6 import
 /*
