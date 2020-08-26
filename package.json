@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node ./index.js",
     "start2": "ts-node ./src/index.ts",
+    "dev": "nodemon index",
     "start-nodejs1": "node ./playground/index-nodejs-course.js",
     "start-nodejs2": "node ./playground/index-nodejs-course2.js"
   },
