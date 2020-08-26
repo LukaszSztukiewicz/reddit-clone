@@ -4,8 +4,10 @@
   "description": "A reddit-clone based on Ben Awad's tutorial",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "start2": "ts-node src/index.ts"
+    "start": "node ./index.js",
+    "start2": "ts-node ./src/index.ts",
+    "start-nodejs1": "node ./playground/index-nodejs-course.js",
+    "start-nodejs2": "node ./playground/index-nodejs-course2.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/LukaszSztukiewicz/reddit-clone#readme",
   "devDependencies": {
+    "nodemon": "^2.0.4",
     "ts-node-dev": "^1.0.0-pre.61"
   }
 }
