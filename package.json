@@ -24,5 +24,8 @@
   "devDependencies": {
     "nodemon": "^2.0.4",
     "ts-node-dev": "^1.0.0-pre.61"
+  },
+  "dependencies": {
+    "mongodb": "^3.6.0"
   }
 }
